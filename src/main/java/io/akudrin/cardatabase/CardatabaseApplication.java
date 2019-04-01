@@ -8,6 +8,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import com.ulisesbocchio.jasyptspringboot.annotation.EnableEncryptableProperties;
+
 import io.akudrin.cardatabase.domain.Car;
 import io.akudrin.cardatabase.domain.CarRepository;
 import io.akudrin.cardatabase.domain.Owner;
